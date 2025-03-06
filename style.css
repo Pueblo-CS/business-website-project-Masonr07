@@ -1,7 +1,33 @@
 body{
-    background-image:url("https://picsum.photos/id 274/60/1000/1000");
-    background-repeat:no repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size:cover ;
+    background-image: url("https://picsum.photos/id 274/60/1000/1000");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+#header{
+    background-color:#A7BBEC ;
+    color:white;
+    height:60px;
+}
+
+.nav a{
+    color:white;
+    text-decoration: dashed;
+
+}
+
+#hero{
+    color:white;
+    font-size:22px;
+}
+
+#hero h1{
+    font-size 80px;
+
+}
+
+#cta{
+    background-color: #A7BBEC;
 }
