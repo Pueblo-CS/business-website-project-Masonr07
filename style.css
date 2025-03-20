@@ -1,9 +1,14 @@
 body{
+    background-color: rgb(32, 31, 31);
     background-image: url("https://picsum.photos/id 274/60/1000/1000");
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
+}
+
+#header,.nav, a, #hero, #cta{
+    color: white;
 }
 
 #header{
@@ -12,10 +17,14 @@ body{
     height:60px;
 }
 
-.nav a{
+ a{
     color:white;
-    text-decoration: dashed;
+    text-decoration:none;
 
+}
+
+a:hover{
+    text-decoration:underline;
 }
 
 #hero{
@@ -24,10 +33,25 @@ body{
 }
 
 #hero h1{
-    font-size 80px;
+    font-size: 80px;
 
 }
 
 #cta{
     background-color: #A7BBEC;
+}
+
+#cta:hover{
+    background-color:white;
+    color: darkslateblue;
+}
+
+#services{
+    background-color:rgb(209, 206, 243);
+
+}
+
+.card{
+    background-color: white;
+    width:fit-content;
 }
